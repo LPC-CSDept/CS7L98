@@ -21,9 +21,9 @@ def test_main_1():
     lst = list(zobj)
 
     assert len(lst) == 3
-    assert lst[0] == ('Bill', 100)
-    assert lst[1] == ('John', 90)
-    assert lst[2] == ('Kurt', 90)
+    assert lst[0] == (1001, 'C Programming')
+    assert lst[1] == (1002, 'Java Programming')
+    assert lst[2] == (1003, 'Python Programming')
 
     # regex_string = r'[\w,\W]*1'
     # regex_string += r'[\w,\W]*3'

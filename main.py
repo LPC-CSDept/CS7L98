@@ -1,11 +1,11 @@
 def main():
-    names = ['Bill', 'John', 'Kurt']
-    scores = [100, 90, 90]
+    IDs = [1001, 1002, 1003]
+    Names = ['C Programming', 'Java Programming', 'Python Programming']
 
-    for zobj in zip(names, scores):
+    for zobj in zip(IDs, Names):
         print(zobj)
 
-    return zip(names, scores)
+    return zip(IDs, Names)
 
 
 if __name__ == '__main__':
